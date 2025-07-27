@@ -149,3 +149,7 @@ public:
         entries[domain]=dns_details;
     }
 };
+
+/*
+recursive locking is usually symptom of bad design 
+*/
